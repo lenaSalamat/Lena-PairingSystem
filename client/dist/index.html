@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+   
+    <title>Pairing System</title>
+    <h1 id="title">Pairing System</h1>
+  </head>
+  <style>
+  #button {
+    background-color: #A9A9A9;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius:5px;
+}
+
+#button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+  #title {
+    width: 40%;
+    height: 55px;
+    margin: 40px auto 0px;
+    color: white;
+    background: gray;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  #h4 {
+    width: 30%;
+    height: 20px;
+    margin: 40px auto 0px;
+    color: white;
+    background: #A9A9A9;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 8px 8px 0px 0px;
+
+  }
+  .form-group{
+    text-align: center;
+
+  }
+  #input{
+  width: 20%;
+  margin: 0px auto;
+  /*border: 1px solid gray;*/
+}
+
+#input:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+  #select {
+    width: 12%;
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #000 inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #000 inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #000 inset;
+    background: #e6e6e6;
+    color:#000;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+/*.col-sm-3{
+  float:right;
+}*/
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    margin: 40px auto 0px;
+    /*float: right;*/
+
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #FA8072;
+    color: white;
+}
+
+#rem {
+  background-color: #A9A9A9;
+  border: none;
+  color: white;
+  padding: 9px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius:5px;
+}
+
+#rem:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#home {
+background-color: #f2f2f2;
+  border: none;
+  color: white;
+  padding: 9px 32px;
+  text-align: center;
+  text-decoration: none;
+/*  display: inline-block;
+*/  font-size: 16px;
+  margin: 40px auto 0px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius:5px;
+  width: 250px;
+
+  }
+
+  #p {
+  font-size: 5em;
+  position: absolute;
+  color: pink;
+}
+
+#p2 {
+  font-size: 4em;
+  position: absolute;
+  color: pink;
+}
+
+#p3 {
+  font-size: 3em;
+  position: absolute;
+  color: pink;
+}
+#p4 {
+  font-size: 2em;
+  position: absolute;
+  color: pink;
+}
+</style>
+  <body>
+    
+    <div id="app"></div>
+<script type="text/javascript" src="bundle.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+</html>
